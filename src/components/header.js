@@ -22,22 +22,6 @@ const Header = ({ activePage }) => (
         </svg>
       </Link>
       <span className="hidden sm:flex flex-grow items-center space-x-6">
-        <NavLink to="/" title="Home" selected={activePage === "/"}>
-          Home
-        </NavLink>
-        <NavLink to="/work" title="Work" selected={activePage === "work"}>
-          Work
-        </NavLink>
-        <NavLink
-          to="/uses"
-          title="Uses"
-          selected={activePage === "uses"}
-        >
-          Uses
-        </NavLink>
-        <NavLink to="/about" title="About" selected={activePage === "about"}>
-          About
-        </NavLink>
       </span>
       <ThemeToggle className="hidden sm:block hover:text-accent transition duration-150" />
     </nav>

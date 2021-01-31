@@ -1,48 +1,37 @@
 export default [
   {
-    label: "Cloud Platforms",
+    label: "Tools on my Belt",
     description:
-      "Here are the cloud platforms I am using the most",
+      "Here are the tools and platforms I am using the most",
     categories: [
       {
-        title: "Google Cloud Platform",
+        title: "Cloud Platforms",
         skills: [
-          "Google Cloud Certified Associate Cloud Engineer -- May 2020",
-          "Google Kubernetes Engine",
-          "Cloud Storage",
-          "Compute Engine",
-          "Cloud Run",
+          "Amazon Web Services",
+          "Google Cloud Platform",
+          "Digital Ocean"
         ],
       },
       {
-        title: "Amazon Web Services",
+        title: "Services",
         skills: [
-          "EC2",
-          "S3",
-          "Cloudfront CDN",
-          "ECS",
-          "Route 53",
+          "Docker",
+          "Kubernetes",
+          "Git",
+          "Jenkins",
+          "Terraform"
+        ],
+      },
+      {
+        title: "Coding",
+        skills: [
+          "Ruby",
+          "Python",
+          "Bash",
+          "PowerShell",
+          "SQL"
         ],
       },
     ],
-  },
-  {
-    label: "Hardware",
-    description: "Here is my hardware",
-    categories: [
-      {
-        title: "Intel NUC8i5",
-        skills: [
-          "i5 CPU",
-          "16GB RAM",
-          "512GB m.2 SSD",
-          "Windows 10 with WSL2",
-        ],
-      },
-      {
-        title: "Raspberry Pi's",
-        skills: ["Pi4 4GB x 1", "Pi4 2GB x 2"],
-      },
-    ],
-  },
+  }
 ]
